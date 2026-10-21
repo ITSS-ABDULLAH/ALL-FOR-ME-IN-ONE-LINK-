@@ -98,10 +98,11 @@ body {
     flex-wrap: wrap;
 }
 
+/* شكل الزرار الجديد (كبسولة) */
 .btn {
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
+    width: 50px;
+    height: 40px;
+    border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,7 +111,6 @@ body {
     font-size: 20px;
     transition: transform 0.2s, opacity 0.2s;
 }
-
 .btn:hover {
     transform: translateY(-3px);
     opacity: 0.9;
